@@ -1,0 +1,11 @@
+WorkOrder,JobNumber,ProjectName,ProductionDate,CostCode,CostCodeDescription,AssemblyType,QuantityProduced,Unit,TotalLaborHours,UnitsPerHour,MinutesPerUnit,CrewLead,Notes
+WO-1001,JOB-24001,Demo Data Center A,2026-05-20,26-05-00,Raceway Rough-In,Conduit Rack,35,EA,14.0,2.50,24.00,Alex Morgan,Standard rack build
+WO-1001,JOB-24001,Demo Data Center A,2026-05-21,26-05-00,Raceway Rough-In,Conduit Rack,42,EA,15.5,2.71,22.14,Alex Morgan,Improved layout staging
+WO-1002,JOB-24001,Demo Data Center A,2026-05-21,26-05-10,Hanger and Support,Trapeze Hanger,60,EA,12.0,5.00,12.00,Jordan Lee,Repeat assembly
+WO-1002,JOB-24001,Demo Data Center A,2026-05-22,26-05-10,Hanger and Support,Trapeze Hanger,72,EA,13.0,5.54,10.83,Jordan Lee,Batch cut material
+WO-1003,JOB-24002,Demo Hospital B,2026-05-22,26-20-00,Branch Rough-In,Box Assembly,48,EA,10.5,4.57,13.13,Taylor Brooks,Box prep
+WO-1003,JOB-24002,Demo Hospital B,2026-05-23,26-20-00,Branch Rough-In,Box Assembly,52,EA,11.0,4.73,12.69,Taylor Brooks,Minor material wait
+WO-1004,JOB-24002,Demo Hospital B,2026-05-23,26-25-00,Feeder and Cable Prep,Cable Whip,85,EA,16.0,5.31,11.29,Casey Parker,Cable cut and label
+WO-1004,JOB-24002,Demo Hospital B,2026-05-24,26-25-00,Feeder and Cable Prep,Cable Whip,92,EA,16.5,5.58,10.76,Casey Parker,Good production day
+WO-1005,JOB-24003,Demo Office C,2026-05-24,26-30-00,Prefab Rack Assembly,Wire Rack,28,EA,14.0,2.00,30.00,Riley Chen,First run setup
+WO-1005,JOB-24003,Demo Office C,2026-05-25,26-30-00,Prefab Rack Assembly,Wire Rack,40,EA,15.0,2.67,22.50,Riley Chen,Process improved

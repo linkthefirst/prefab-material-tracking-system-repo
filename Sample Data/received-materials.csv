@@ -1,0 +1,11 @@
+WarehouseMovementID,WorkOrder,JobNumber,ProjectName,ReceivedDate,Location,PackageType,MaterialDescription,ReceivedQty,Unit,Receiver,Notes
+WM-50001,WO-1001,JOB-24001,Demo Data Center A,2026-05-26,Bay 22,Pallet,1/2" EMT Conduit,300,FT,Sam Wilson,Partial pallet received
+WM-50002,WO-1001,JOB-24001,Demo Data Center A,2026-05-26,Bay 22,Box,1/2" EMT Coupling,120,EA,Sam Wilson,Full quantity received
+WM-50003,WO-1001,JOB-24001,Demo Data Center A,2026-05-27,Bay 22,Box,1/2" EMT Connector,90,EA,Jamie Cruz,Short 30 connectors
+WM-50004,WO-1002,JOB-24001,Demo Data Center A,2026-05-27,Bay 23,Bundle,3/4" Threaded Rod,300,FT,Jamie Cruz,Full bundle received
+WM-50005,WO-1002,JOB-24001,Demo Data Center A,2026-05-27,Bay 23,Box,3/8" Hex Nut,600,EA,Jamie Cruz,Full quantity received
+WM-50006,WO-1003,JOB-24002,Demo Hospital B,2026-05-28,Bay 24,Box,4" Square Box,50,EA,Morgan Gray,Partial quantity received
+WM-50007,WO-1004,JOB-24002,Demo Hospital B,2026-05-28,Bay 25,Reel,MC Cable 12/2,1000,FT,Morgan Gray,Full reel received
+WM-50008,WO-1004,JOB-24002,Demo Hospital B,2026-05-29,Bay 25,Box,Red Wire Nut,250,EA,Chris Reed,Full quantity received
+WM-50009,WO-1005,JOB-24003,Demo Office C,2026-05-29,Bay 26,Pallet,Prefab Wire Rack Assembly,32,EA,Chris Reed,8 assemblies still pending
+WM-50010,WO-1005,JOB-24003,Demo Office C,2026-05-30,Bay 26,Rack,Strut Channel 10ft,90,EA,Drew Smith,Full quantity received
