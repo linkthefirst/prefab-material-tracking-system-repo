@@ -71,6 +71,24 @@ The reporting logic calculates:
 
 This gives warehouse, prefab, and field teams a clearer view of what material has arrived and what is still missing.
 
+### ExpectedMaterials.pq
+
+Cleans and groups the expected material list from an Excel table named `MaterialList`.
+
+This query standardizes manually entered expected material data and creates one summarized expected quantity per work order, material description, and unit. The result is later compared against received material from warehouse movement records.
+
+### ReceivedMaterials.pq
+
+Parses received material from a SharePoint warehouse movement list.
+
+This query converts multi-line warehouse movement entries into normalized material rows. It extracts descriptions, received quantities, units, check-in dates, and SharePoint item IDs, then groups received quantities by work order and material description. A sanitized SharePoint link column is included to show how source-record traceability was handled.
+
+### ExpectedVsReceived.pq
+
+Compares expected material against received warehouse material.
+
+This query merges `ExpectedMaterials` with `ReceivedMaterials` by work order and material description. It calculates received quantity, remaining quantity, and a simple status value showing whether each material line is not received, partially received, fully received, or over received.
+
 ---
 
 ### Warehouse Movement Parsing
